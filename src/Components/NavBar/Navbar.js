@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-gray-900 px-4 py-2.5 sticky w-full flex justify-center z-20 top-0 left-0 border-b border-gray-600">
-      <ul className="flex flex-row py-1 justify-around  w-1/2">
+      <ul className="flex flex-row py-1 justify-around  w-1/4">
         {links.map((link) => (
           <NavLink
             className={({ isActive }) =>
