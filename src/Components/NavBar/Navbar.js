@@ -5,7 +5,7 @@ import React from 'react';
 const Navbar = () => {
   const styles = {
     className:
-      'block py-1 px-2 text-white rounded hover:bg-gray-100 hover:text-black',
+      'block py-1 px-2 text-white rounded hover:bg-gray-300 hover:text-black',
     activeClassName: 'block py-1 px-2 text-white bg-blue-500 rounded ',
   };
 
